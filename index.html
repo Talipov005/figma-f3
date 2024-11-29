@@ -4,8 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
 </head>
 <body>
+    <header></header>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section>
+        <div class="w-[1400px] h-[700px] m-auto">
+            <div class="ml-[100px]">
+                <h1 class="text-black text-[30px] font-bold">Частые вопросы</h1>
+                <p class="text-black text-[20px] font-semibold border-y-2 mt-[80px] py-[20px]">Как происходит бронирование? <span class="ml-[800px]">+</span></p>
+                <p class="text-black text-[20px] font-semibold mt-[10px] mb-[10px]" >Какая сумма предоплаты нужна? <span class="ml-[787px]">-</span></p>
+                <p class="mb-[30px]">Стандарт предоплаты 50% от суммы аренды, если сумма аренды большая, то можно уменьшить предоплату до 30%.</p>
+                <p class="text-black text-[20px] font-semibold border-y-2 py-[20px]">Можно ли разбить предоплату на несколько частей? <span class="ml-[598px]">+</span></p>
+                <p class="text-black text-[20px] font-semibold mt-[20px] mb-[20px]">Как работаете с юр. лицами? <span class="ml-[829px]">+</span></p>
+                <p class="text-black text-[20px] font-semibold border-y-2 py-[20px]">Можно ли приехать на просмотр? <span class="ml-[783px]">+</span></p>
+                <p class="text-black text-[20px] font-semibold mt-[20px] mb-[20px]">Какое время заезда и выезда в дом и есть ли возможность сдвинуть заезд или выезд? <span class="ml-[270px]">+</span></p>
+                <p class="text-black text-[20px] font-semibold border-y-2 py-[20px]">Зачем нужен залог? <span class="ml-[914px]">+</span></p>
+                <p class="text-black text-[20px] font-bold border-b-2 py-[20px]">Сколько стоят Ваши услуги? <span class="ml-[829px]">+</span></p>
+            </div>
+
+        </div>
+    </section>
+    <section class="relative">
+        <div class="w-[1400px] h-[750px] m-auto mt-[250px] relative  ">
+            <img src="./img/bg_photo.svg" alt="" class="relative">
+            <div class="absolute bottom-[400px] ml-[250px]">
+               
+                    <h1 class=" text-white text-[35px] font-semibold">Хотите сдать дом?</h1>
+                    <p class=" w-[250px] text-white mt-[20px] mb-[30px]">Оставьте заявку и мы свяжемся с вами для уточнения деталей</p>
+                    <button class="w-[220px] h-[40px] bg-[#F4683F] rounded-[200px] text-white ">Оставить заявку</button>
+                    
+                </div>
+                <img src="./img/Rectangle 50.svg" alt="" class="absolute bottom-[150px]">
+                
+                <footer class="absolute m-auto">
+                    <img src="./img/bg rent footer.svg" alt="">
+                <div class="w-[1400px] h-[350px] m-auto flex absolute bottom-[-140px] ml-[200px]">
+                    <div>
+                        <img src="./img/logo_light.svg" alt="" class="w-[200px]">
+                        <p class="text-[#404256] mt-[100px] text-[10px]">Политика конфиденциальности</p>
+                        <p class="text-[#404256] text-[10px]">Согласие на обработку персональных данных</p>
+                    </div>
+                    <div class="ml-[100px]">
+                        <p class="text-white font-bold">Каталог</p>
+                        <p class="text-[#C0C2D7] mt-[12px] text-[13px]">С бассейном</p>
+                        <p class="text-[#C0C2D7] mt-[8px] text-[13px]">Семейные и уютные</p>
+                        <p class="text-[#C0C2D7] mt-[8px] text-[13px]">Хиты продаж</p>
+                        <p class="text-[#C0C2D7] mt-[8px] text-[13px]">Под свадьбы и корпоративы</p>
+                        <p class="text-[#C0C2D7] mt-[8px] text-[13px]">С русской баней на дровах</p>
+                    </div>
+                    <div class="ml-[50px]">
+                        <p class="text-[#C0C2D7] text-[13px]">Сотрудничество</p>
+                        <p class="text-[#C0C2D7] text-[13px] mt-[5px]">Частые вопросы</p>
+                    </div>
+                    <div class="ml-[200px]">
+                        <img src="./img/phone.svg" alt="" class="w-[120px] ml-[20px]">
+                        <img src="./img/social media.svg" alt="" class="w-[150px] mt-[120px]">
+                    </div>
+        
+                </div>
+            </footer>
+        </section>
+        </div>
     <script src="./app.js"></script>
 </body>
 </html>
